@@ -112,3 +112,18 @@ main {
   scale: 1.2;
   transition-duration: 0.5s;
 }
+
+/* ====================== scroll bar css ====================== */
+
+#scroller::-webkit-scrollbar{
+  display: none;
+}
+body::-webkit-scrollbar{
+  display: block;
+  width: 7px;
+  background-color: #000000;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #E75F00;
+  border-radius: 50px;
+}
